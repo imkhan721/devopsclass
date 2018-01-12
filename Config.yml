@@ -1,0 +1,5 @@
+---
+- hosts: servers
+  tasks:
+    - name: Start the apache
+      service: name=httpd state=started
